@@ -21,6 +21,7 @@ Mappestruktur:
   --- osv.
   app.py
 
+└───Søknader
 
 Figma:
 <img width="2093" height="1112" alt="image" src="https://github.com/user-attachments/assets/100e732d-64f5-4a4e-bbac-f6f600f10ea0" />
