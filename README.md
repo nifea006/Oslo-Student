@@ -5,23 +5,18 @@ For å lage sosiale medien for programmering skal jeg bruke Python/Flask og kans
 
 Mappestruktur:
   .venv
-  static
-  --- CSS
-  ------ style.css
-  --- JS
-  ------ script.js
-  templates
-  --- navbar.html
-  --- Main Menu
-  ------ home.html
-  --- Login
-  ------ login.html
-  --- Bruker
-  ------ bruker_info.html
-  --- osv.
-  app.py
-
-└───Søknader
+├───static
+│   ├───CSS
+│       └───style.css
+│   └───JS
+│       └───script.js
+└───templates
+    ├───Bruker
+    │   └───bruker-info.html
+    ├───Login
+    │   └───login.html
+    └───Main Menu
+        └───home.html
 
 Figma:
 <img width="2093" height="1112" alt="image" src="https://github.com/user-attachments/assets/100e732d-64f5-4a4e-bbac-f6f600f10ea0" />
