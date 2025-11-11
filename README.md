@@ -4,22 +4,22 @@ Jeg planlegger å opprette et sosialt medie for skolebarn i Oslo. Medien vil kun
 For å lage sosiale medien for programmering skal jeg bruke Python/Flask og kanskje JavaScript, for databasen tenkte jeg å bruke MariaDB.
 
 Mappestruktur:
-.venv
-static
---- CSS
------- style.css
---- JS
------- script.js
-templates
---- navbar.html
---- Main Menu
------- home.html
---- Login
------- login.html
---- Bruker
------- bruker_info.html
---- osv.
-app.py
+  .venv
+  static
+  --- CSS
+  ------ style.css
+  --- JS
+  ------ script.js
+  templates
+  --- navbar.html
+  --- Main Menu
+  ------ home.html
+  --- Login
+  ------ login.html
+  --- Bruker
+  ------ bruker_info.html
+  --- osv.
+  app.py
 
 
 Figma:
