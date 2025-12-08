@@ -2,20 +2,18 @@ a {
     text-decoration: none;
 }
 
-/* Navbar */
-.navbar li {
-    list-style: none;
-    width: min-content;
+.hiden {
+    display: none;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 10px 15px;
-    display: block;
-    background-color: #8d8d8d;
-    border-radius: 15%;
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .navbar ul {
@@ -27,9 +25,32 @@ a {
     list-style: none;
 }
 
-.navbar {
-    background-color: #e0e0e0;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
+.navbar li {
+    list-style: none;
+    width: max-content;
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+
+.drop-down {
+    color: black;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: flex;
+    position: absolute;
+    background-color: antiquewhite;
+    border: solid 2px;
+    padding: 8px 12px;
 }
